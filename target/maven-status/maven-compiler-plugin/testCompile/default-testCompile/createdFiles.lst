@@ -1,0 +1,4 @@
+org/example/AppTest.class
+config/Config.class
+TestRunner.class
+stepDefinitions/VerifyNewsArticleValiditySteps.class
