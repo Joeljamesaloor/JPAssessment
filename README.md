@@ -16,7 +16,7 @@ Chrome and Firefox drivers installed and added to the system/project path (src/m
 Git (optional)
 
 Setup
-Clone the repository or download the zip file and extract it to your local system.
+Clone the repository (Master Branch) or download the zip file and extract it to your local system.
 Open your IDE and import the project as a Maven project.
 Install the required dependencies by running the following command in the terminal:
 
