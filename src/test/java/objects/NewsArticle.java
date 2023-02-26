@@ -22,14 +22,18 @@ public class NewsArticle {
     }
 
     public boolean isAuthentic() {
-        double threshold = 0.8;
+        double threshold = 0.6;
+        int similarResultCount = 0;
         List<WebElement> searchResultElements = driver.findElements(By.xpath("//*[@id='b_results']//li[@class='b_algo']"));
         JaroWinklerSimilarity jws = new JaroWinklerSimilarity();
         for (WebElement searchResultElement : searchResultElements) {
             String searchResultText = searchResultElement.getAttribute("innerText");
             double similarityScore = jws.apply(searchResultText, this.title);
             if (similarityScore > threshold) {
-                return true;
+                similarResultCount++;
+                if (similarResultCount >= 2) {
+                    return true;
+                }
             }
         }
         return false;
