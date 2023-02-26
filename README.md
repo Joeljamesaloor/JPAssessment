@@ -12,7 +12,7 @@ Java 8 or higher
 Maven 3.6.0 or higher
 Eclipse or any other Java IDE
 Chrome and Firefox browsers installed
-Chrome and Firefox drivers installed and added to the system path
+Chrome and Firefox drivers installed and added to the system/project path (src/main/resources/drivers)
 Git (optional)
 
 Setup
