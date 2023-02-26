@@ -1,3 +1,5 @@
+package stepDefinitions;
+
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import net.masterthought.cucumber.Configuration;
