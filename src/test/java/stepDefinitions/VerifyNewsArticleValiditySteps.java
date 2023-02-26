@@ -8,13 +8,15 @@ import org.openqa.selenium.WebDriver;
 import objects.NewsArticle;
 import pages.HomePage;
 
+import java.io.IOException;
+
 public class VerifyNewsArticleValiditySteps {
 
     private final WebDriver driver;
     private final HomePage homePage;
     private NewsArticle newsArticle;
 
-    public VerifyNewsArticleValiditySteps() {
+    public VerifyNewsArticleValiditySteps() throws IOException {
         this.driver = CustomDriver.getDriver();
         this.homePage = new HomePage(driver);
         this.newsArticle = new NewsArticle(driver);

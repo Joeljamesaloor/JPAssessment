@@ -10,7 +10,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class CustomDriver {
 
-    public static WebDriver getDriver() {
+    public static WebDriver getDriver() throws IOException {
         WebDriver driver;
         Properties props = new Properties();
         try {
