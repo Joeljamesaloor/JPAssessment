@@ -1,6 +1,6 @@
 # JP Morgan Assessment - Cucumber Java Selenium Framework
 
-This is a sample Cucumber Java Selenium framework which can be used for web automation testing.
+This Project is a Cucumber Java Selenium framework which can be used for web automation testing.
 
 Objective
 The objective of this project is to test the authenticity of an article published in an online news application by comparing it with search results obtained from a public search engine. If 70% of the search results match with the original article, the article is assumed to be valid, otherwise it is likely to be fake.
