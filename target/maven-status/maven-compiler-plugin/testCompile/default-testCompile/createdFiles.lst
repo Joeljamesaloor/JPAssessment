@@ -1,4 +1,6 @@
-org/example/AppTest.class
+config/CustomDriver.class
+objects/NewsArticle.class
+pages/HomePage.class
 config/Config.class
-TestRunner.class
+stepDefinitions/TestRunner.class
 stepDefinitions/VerifyNewsArticleValiditySteps.class

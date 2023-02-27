@@ -1,4 +1,6 @@
-/Users/joeljamesaloor/IdeaProjects/Assessment_joel/src/test/java/config/Config.java
-/Users/joeljamesaloor/IdeaProjects/Assessment_joel/src/test/java/org/example/AppTest.java
-/Users/joeljamesaloor/IdeaProjects/Assessment_joel/src/test/java/stepDefinitions/VerifyNewsArticleValiditySteps.java
-/Users/joeljamesaloor/IdeaProjects/Assessment_joel/src/test/java/TestRunner.java
+/Users/joeljamesaloor/IdeaProjects/JPAssessment-final test/src/test/java/pages/HomePage.java
+/Users/joeljamesaloor/IdeaProjects/JPAssessment-final test/src/test/java/config/CustomDriver.java
+/Users/joeljamesaloor/IdeaProjects/JPAssessment-final test/src/test/java/stepDefinitions/TestRunner.java
+/Users/joeljamesaloor/IdeaProjects/JPAssessment-final test/src/test/java/config/Config.java
+/Users/joeljamesaloor/IdeaProjects/JPAssessment-final test/src/test/java/objects/NewsArticle.java
+/Users/joeljamesaloor/IdeaProjects/JPAssessment-final test/src/test/java/stepDefinitions/VerifyNewsArticleValiditySteps.java
